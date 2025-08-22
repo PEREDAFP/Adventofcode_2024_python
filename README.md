@@ -4,6 +4,16 @@ Este repositorio contiene mis respuestas y soluciones a los retos de **[Advent o
 El objetivo no es competir ni optimizar al máximo, sino simplemente divertirme, practicar y disfrutar resolviendo los puzzles diarios.
 El código está realizado en pythons
 
+## Estructura del directorio dias
+
+En este directorio se encontrarán los módulos diaX.py en el que la X será el día a resolver
+Tendrá una función resolver(parte, iterador) que mostrará en pantalla el código obtenido para resolver el puzzle
+Se ha utilizado para ello importlib como puede comprobarse en main.py
+
+## Ejecución
+
+python main.py --file fichero --dia 1 --parte 1
+
 ## Nota
 
 - El código puede no ser la solución más eficiente.
