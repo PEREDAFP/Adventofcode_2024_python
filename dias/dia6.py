@@ -82,10 +82,9 @@ def comprobando_bucle(mapa):
             visitadas.add((x,y,dir_idx))
 
 def contamos_bucles(mapa):
-    #Vamos a ir añadiendo obstáculos nuevos al mapa
+    #Vamos a ir añadiendo obstáculos nuevos al mapa y comprobamos si ese mapa nuevo contiene un bucle
     #Si se produce un bucle lo contamos
     bucles = 0
-    # Direcciones: arriba, derecha, abajo, izquierda
     filas = len(mapa)
     columnas = len(mapa[0])
 
