@@ -67,8 +67,7 @@ def comprobando_bucle(mapa):
         nx, ny = x + dx, y + dy
 
         # Caso de salida del mapa
-        if not (0 <= nx < filas and 0 <= ny < columnas):
-            return False # No hemos encontrado ningún bucle ytermina
+        if not (0 <= nx < filas and 0 <= ny < columnas): return False # No hemos encontrado ningún bucle ytermina
            
         # Caso obstáculo
         if mapa[nx][ny] == OBSTACULO:
